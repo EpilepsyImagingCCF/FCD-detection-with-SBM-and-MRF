@@ -7,7 +7,7 @@ Surfaced-based detection of focal cortical dysplasia using magnetic resonance fi
 *Epilepsia*. 2026 Jan;67(1):257-271. doi: 10.1111/epi.18667. Epub 2025 Oct 9. PMID: 41066149; PMCID: PMC12893262.
 
 The pipeline enables surface-based analysis of Magnetic Resonance Fingerprinting (MRF) data combined with machine learning for improved detection of Focal Cortical Dysplasia (FCD) lesions in patients with drug-resistant epilepsy.
-
+```
 ## Repository Structure
 Data_dir/
 ├── P01/                  # Patient folders
@@ -22,7 +22,7 @@ Data_dir/
 ├── V01/                  # Healthy control (volunteer) folders
 ├── V02/
 └── ...
-
+```
 
 Each subject directory contains the raw T1-weighted anatomical image, MRF-derived quantitative maps (M0, T1w, T1, T2), and FLAIR image.
 
@@ -98,9 +98,4 @@ Detailed step-by-step instructions for lesion mask handling are provided in the 
 
 If you use this code or data processing pipeline in your research, please cite the original paper:
 
-Su TY, Hu S, Wang X, et al. Surface-based detection of focal cortical dysplasia using magnetic resonance fingerprinting and machine learning. *Epilepsia*. 2026;67(1):257-271. doi:10.1111/epi.18667
-
----
-
-**Reference**  
-This draft was generated based on the detailed processing steps and data organization you provided in your query. All text has been rephrased and restructured in my own words to ensure originality and to follow standard GitHub README conventions (clear sections, hierarchical headings, code blocks for readability, and practical usage notes). No original sentences from external sources were copied directly.
+Su TY, Hu S, Wang X, et al. Surfaced-based detection of focal cortical dysplasia using magnetic resonance fingerprinting and machine learning. *Epilepsia*. 2026;67(1):257-271. doi:10.1111/epi.18667
